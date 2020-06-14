@@ -2,29 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>grid tutorials</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
   </head>
   <body>
     
     <div class="container-fluid main-page">
-      <section class="container top-nav-header">
-        <div class="search-bar">
-          <i class="fas fa-search"></i>
-        </div>
+      <section class="top-nav-header">
         <div class="navbar-brand">
-          <h1 class="text-center">abin</h1>
+          <h1 class="text-center">abin baral</h1>
           <p>photography</p>
         </div>
-        <div class="menu-bar">
-          <i class="fas fa-bars"></i>
+        <div class="navigation-bar">
+          <div class="menu-icon">
+            <div class="hamburger-menu"></div>
+          </div>
+        </div>
+        <div class="mega-menu">
+          <div class="grid-menu">
+            <div class="header">Header</div>
+            <div class="sidebar">Sidebar</div>
+            <div class="content">content</div>
+            <div class="faq">FAQ</div>
+            <div class="footer">Footer</div>
+          </div>
         </div>
       </section>
-      <section class="container image-overlay-text text-white">
+      <section class="image-overlay-text text-white">
         <div class="img-date">
           <h1>May - 28</h1>
         </div>
@@ -34,56 +44,54 @@
       </section>
     </div>
     <div class="container main-gallery">
+      <section class="img-top-title">
+        <h1>abin baral</h1>
+        <p>portfolio</p>
+      </section>
       <section class="image-gallery">
-        <div class="text-1">
-          <p>portfolio highlight</p>
-          <h1>Abin Baral</h1>
-          <h4>Malbourne, Australia</h4>
-        </div>
-        <a href="img/1.jpg" class="img-1">
+        <a href="img/1.jpg" class="img-1" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
-        <a href="img/2.jpg" class="img-2">
+        <a href="img/2.jpg" class="img-2" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
-        <a href="img/3.jpg" class="img-3">
+        <a href="img/3.jpg" class="img-3" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
-        <a href="img/4.jpg" class="img-4">
+        <a href="img/4.jpg" class="img-4" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
-        <a href="img/5.jpg" class="img-5">
+        <a href="img/5.jpg" class="img-5" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
-        <a href="img/6.jpg" class="img-6">
+        <a href="img/6.jpg" class="img-6" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
-        <a href="img/7.jpg" class="img-7">
+        <a href="img/7.jpg" class="img-7" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
-        <a href="img/8.jpg" class="img-8">
+        <a href="img/8.jpg" class="img-8" data-lightbox="portfolio-gallery">
           <i class="fas fa-expand"></i>
         </a>
       </section>
       <div class="explore">
         <a href="" class="explore-more">
           View Gallery
-          <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </div>  
     </div>
     <div class="container featured-photo">
       <section class="photo-title">
-        <h1>Featured Projects</h1>
+        <h1>Recent Projects</h1>
       </section>
       <section class="featured-gallery">
-        <a href="" class="item-1">
-          <p>Love Birds</p>
-          <h1>april 21</h1>
+        <a class="item-1">
+          <p>Melbourne Street</p>
+          <h3>april 21</h3>
         </a>
-        <a href="" class="item-2">
+        <a class="item-2">
           <p>Vintage looks</p>
-          <h1>may 04</h1>
+          <h3>may 04</h3>
         </a>
       </section>
     </div>
@@ -97,13 +105,122 @@
         <li><a data-image="img/3.jpg" href=""><i class="fas fa-plus"></i>Commercial</a></li>
         <li><a data-image="img/6.jpg" href=""><i class="fas fa-plus"></i>The Experience</a></li>
         <li><a data-image="img/7.jpg" href=""><i class="fas fa-plus"></i>Contact</a></li>
+        <img src="img/1.jpg" alt="">
       </ul>
-      <img src="img/1.jpg" alt="">
+    </section>
+
+    <section class="journey-section">
+      <div class="container journey-bio">
+        <p class="bio-title">Hey, I'm Abin Baral.<br> Our Journey Starts Here.</p>
+        <p class="bio-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus illo quibusdam, ipsa modi ea, mollitia a numquam, labore molestias recusandae aut sed quo suscipit nisi vitae sapiente.</p>
+      </div>
+      <div class="container my-journey">
+        <a href="" class="journey-img img-fluid">
+          <h2 class="date">Jun - 06</h2>
+        </a>
+      </div>
     </section>
     
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <section class="container brand-sponsor">
+      <div class="sponsor-title">
+        <p>our sponsors and special partners</p>
+      </div>
+      <div class="sponsors">
+        <div class="sponsor-items imgB-1">
+          <img src="img/sponsors/niek.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-2">
+          <img src="img/sponsors/canon.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-3">
+          <img src="img/sponsors/wp.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-4">
+          <img src="img/sponsors/sam.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-5">
+          <img src="img/sponsors/add.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-6">
+          <img src="img/sponsors/gucci.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-7">
+          <img src="img/sponsors/armani.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-8">
+          <img src="img/sponsors/puma.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-9">
+          <img src="img/sponsors/sony.png" alt="">
+        </div>
+        <div class="sponsor-items imgB-10">
+          <img src="img/sponsors/niek.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="container hire-container">
+      <div class="hire-box">
+        <div class="hire-title">
+          <h1>want to hire professional photographer.</h1>
+          <p>send me email.</p>
+          <form>
+            <div>
+              <input type="text" name="" required>
+              <label>Name</label>
+            </div>
+            <div>
+              <input type="email" name="" required>
+              <label>Email</label>
+            </div>
+            <div>
+              <input type="tel" name="" required>
+              <label>Contact</label>
+            </div>
+            <button class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="container footer-bar">
+        <div class="footer-menu">
+          <nav class="navbar navbar-expand">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="" class="nav-link">Hire me</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Service</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-social-media">
+          <div class="copyright">
+            <p>Abin Baral &copy; 2020</p>
+          </div>
+          <div class="social-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-pinterest"></i>
+          </div>
+        </div>
+    </section>
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
